@@ -6,8 +6,7 @@ struct node
     int data;
     struct node*next;
     struct node*previous;
-};
-struct node*newnode,*head,*temp;
+}*newnode,*head,*tem;
 int node_count=0;
 
 // add node at last

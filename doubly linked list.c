@@ -130,7 +130,8 @@ void mid()
     newnode->next=t2->next;
     t2->next=newnode;
     newnode->next->previous=newnode;
-    printf("\n\n");
+    printf("\n");
+    printf("\n");
     node_count++;
     return;
 
